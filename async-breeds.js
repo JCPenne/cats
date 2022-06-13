@@ -13,3 +13,5 @@ const printOutCatBreed = breed => {
 };
 
 const bombay = breedDetailsFromFile('Bombay', printOutCatBreed);
+
+module.exports = breedDetailsFromFile;
